@@ -45,6 +45,7 @@ namespace SpeedCamera
             c.Speed = Convert.ToInt32(Console.ReadLine());
             c.DemeritPoints = 0;
 
+            // output for speed limit
             Console.WriteLine("Speed Limit: " + speedLimit + "mph");
 
             // Car A if/else statements for determining demerit points and output
